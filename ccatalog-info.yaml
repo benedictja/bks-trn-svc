@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bks-trn-svc
+  description: Training service for Backastage
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: mhb
